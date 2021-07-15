@@ -1,0 +1,63 @@
+h1.titre {
+  text-align: center;
+}
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+}
+.editor-box {
+  margin: auto;
+  border: 1px black solid;
+  background-color: lightblue;
+  width: fit-content;
+}
+.editor-box header {
+  background-color: #4aa3a3;
+  border: 2px solid red;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+textarea#editor {
+  background-color: lightblue;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+.previewer {
+  margin: auto;
+  margin-top: 10px;
+  width: 85vw;
+  max-width: 500px;
+  border: 1px solid black;
+}
+
+.previewer header {
+  background-color: #4aa3a3;
+  border: 2px solid red;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+#preview {
+  background-color: lightblue;
+  padding: 1px 10px;
+}
+
+img {
+  width: 50%;
+}
+
+footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  height: 40px;
+  width: 100vw;
+  background-color: lightgreen;
+}

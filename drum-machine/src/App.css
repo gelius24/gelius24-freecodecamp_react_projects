@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.432);
+}
+h1{
+  text-align: center;
+  margin-bottom: 26px;
+}
+#drum-machine{
+  background-color: lightgrey;
+  height: 300px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 4px greenyellow solid;
+}
+.drum-pad{
+  background-color: grey;
+  
+}
+.display{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 60%; /*39%*/
+  height: 81%;
+  padding-top: 5px;
+}
+.drum-pad{
+  background-color: gray;
+  font-size: 1.3rem;
+  height: 70px;
+  width: 110px; /*70px*/
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px, 2px 2px 4px greenyellow;
+}
+
+.drum-pad.active{
+  background-color: greenyellow;
+}
+
+.btn{
+  background-color: black;
+  width: 40px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  
+}
+.off{
+  background-color: red;
+  width: 15px;
+  height: 20px;
+  margin-left: 2px;
+}
+.on{
+  background-color: rgb(0, 250, 0);
+  width: 15px;
+  height: 20px;
+  margin-left: 23px;
+}
+.bank1{
+  background-color: grey;
+  width: 15px;
+  height: 20px;
+  margin-left: 2px;
+}
+.bank2{
+  background-color: grey;
+  width: 15px;
+  height: 20px;
+  margin-left: 23px;
+}
+
+.right-side{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.indicator{
+  background-color: rgba(128, 128, 128, 0.342);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 120px;
+  font-size: 1.2rem;
+}
+footer{
+  background-color: lightgray;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
