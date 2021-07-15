@@ -45,7 +45,6 @@ function App() {
             value={volume}
             max="1"
             min="0"
-            className="w-50"
             onChange={(e) => setVolume(e.target.value)}
           />
           </div>

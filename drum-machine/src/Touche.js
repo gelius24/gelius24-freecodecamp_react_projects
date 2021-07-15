@@ -11,8 +11,8 @@ function Touche({note, on, id, volume}) {
       setActive(true);
       setSound(id)
       setTimeout(() => setActive(false), 200);
-      audioTag.currentTime = 0;
       audioTag.volume = volume
+      audioTag.currentTime = 0;
       audioTag.play();
     } else {
       alert("Allumer la machine !")
