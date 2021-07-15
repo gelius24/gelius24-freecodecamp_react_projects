@@ -22,6 +22,7 @@ function App() {
     <div className="app">
       <h1>Drum-Machine</h1>
       <div id="drum-machine">
+        <div id="drummachine"></div>
         <Clavier bankNumber={bankNumber} on={on} volume={volume} />
         {/* power button */}
         <div className="right-side">
