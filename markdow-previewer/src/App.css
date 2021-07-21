@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 h1.titre {
   text-align: center;
 }
@@ -9,10 +12,11 @@ body {
   background-color: lightgrey;
 }
 .editor-box {
-  margin: auto;
+  margin: 0 auto;
   border: 1px black solid;
   background-color: lightblue;
   width: fit-content;
+  height: fit-content;
 }
 .editor-box header {
   background-color: #4aa3a3;
@@ -25,6 +29,8 @@ textarea#editor {
   background-color: lightblue;
   overflow-y: scroll;
   padding: 20px;
+  border: none;
+  resize: none;
 }
 
 .previewer {
@@ -60,4 +66,13 @@ footer {
   height: 40px;
   width: 100vw;
   background-color: lightgreen;
+}
+
+@media (max-width: 416px) {
+  .editor-box{
+    width: 80vw;
+  }
+  textarea#editor {
+    width: 79vw;
+  }
 }
