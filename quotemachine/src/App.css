@@ -58,3 +58,16 @@ a#tweet-quote{
 a#tweet-quote:hover{
   transform: scale(1.05);
 }
+
+
+@media (max-width:1232px) {
+  #quote-box{
+    width: 80%;
+  }
+}
+
+@media (max-width:800px) {
+  #quote-box{
+    width: 90%;
+  }
+}
