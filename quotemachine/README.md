@@ -1,4 +1,4 @@
-https://60eb945a6f32a8e6ea8c0675--quote-machinewg.netlify.app/
+https://60f7ea6fd5ad90e179ac44f3--quote-machinewg.netlify.app/
 
 # Getting Started with Create React App
 
